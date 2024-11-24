@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Página de Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/bts_logo.png" width="100px" height="100px" alt="Logo del evento">
+        </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Marco teórico</a></li>
+                <li><a href="Blog.html">Marco referencial</a></li>
+                <li><a href="boletos.html">Hallazgos</a></li>
+                <li><a href="extra1.html">Anexos</a></li>
+            </ul>
+            </nav>
+    </header>
+
+    <section class="parallax-c">
+        <h1>Contacto</h1>
+        <!--Agregar un texto promocional del sitio-->
+        <p>Si tienes alguna duda contactanos.</p>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="left-column">
+                <h2>Información de Contacto</h2>
+                <p>Envíame un mensaje para cualquier consulta o proyecto que tengas en mente</p>
+                <ul>
+                    <li><strong>Telefono:</strong>8182749147</li>
+                    <li><strong>Email:</strong>martinez8andy20@gmail.com</li>
+                    <li><strong>Dirección:</strong>Calle Malawi 115, Monterrey</li>
+                </ul>
+            </div>
+
+            <div class="right-column">
+                <form id="contact-form" action="contact.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit">Enviar mensaje</button>
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com"><img src="img/facebook .png" width="30px" height="30px"></a>
+            <a href="https://www.instagram.com"><img src="img/instagram.png"width="30px" height="30px"></a>
+            <a href="https://x.com/"><img src="img/twitter.png"width="30px" height="30px"></a>
+        <p>&copy; 2024 | Andrea Garibay</p>
+        </div>
+    </footer>
+</body>
+</html>
